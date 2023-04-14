@@ -29,3 +29,6 @@ Automatic gating of single cell cytometry data
   Data.Sample= E:\cytof\data3.csv<br>
   
 - See foo.txt file.
+
+3. Results
+  Itn the directory of files specified in Data.Sample, file_cygated.csv file is generated.<br>
