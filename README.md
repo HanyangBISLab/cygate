@@ -32,5 +32,5 @@ Automatic gating of single cell cytometry data
 - In the directory of files specified in Data.Sample, file_cygated.csv file is generated.
 
 4. Data
-- https://drive.google.com/drive/u/1/folders/1mIR3uTnOZxciVrsooRJLr3tjkLFR3RTI
+- To download the data used in this work, visit https://drive.google.com/drive/u/1/folders/1mIR3uTnOZxciVrsooRJLr3tjkLFR3RTI
 </pre>
