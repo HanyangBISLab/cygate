@@ -10,17 +10,17 @@ Automatic gating of single cell cytometry data
 ##################################################################
 
 2. Parameters
-- Training.Sample= 
+- Training.Sample= <br>
   Specify gated reference sample files for gating strategy learning (comma separated value, CSV format)<br>
   Make sure that the CSV files have a column named 'Label' in the header, where cell labels are written.<br>
   Multiple files can be specified by mulitple lines below.<br>
   Training.Sample= E:\cytof\reference_gating1.csv<br>
   Training.Sample= E:\cytof\reference_gating2.csv<br>
 
-- Training.UngatedCellLabel= 
+- Training.UngatedCellLabel= <br>
   Specify label for UNGATED cells<br>
 
-- Data.Sample= 
+- Data.Sample= <br>
   Specify sample files or directory for automatic gating (CSV format)<br>
   Given a directory, all files in it are gated.<br>
   Multiple files can be specified by mulitple lines.<br>
@@ -28,4 +28,4 @@ Automatic gating of single cell cytometry data
   Data.Sample= E:\cytof\data2.csv<br>
   Data.Sample= E:\cytof\data3.csv<br>
   
-  See foo.txt file.
+- See foo.txt file.
