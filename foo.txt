@@ -1,0 +1,23 @@
+
+
+# Specify gated reference sample files for gating strategy learning (comma separated value, CSV format)
+# Make sure that the CSV files have a column named 'Label' in the header, where cell labels are written.
+# Multiple files can be specified by mulitple lines.
+# Training.Sample= E:\cytof\reference_gating1.csv
+# Training.Sample= E:\cytof\reference_gating2.csv
+Training.Sample= D:\Publication\CyGate\data\Multicenter_16indv\Multicenter_1_wlabel.csv
+Training.Sample= 
+
+# Specify label for UNGATED cells
+# Training.UngatedCellLabel= 0
+Training.UngatedCellLabel= 0
+
+
+# Specify sample files for automatic gating (CSV format)
+# Multiple files can be specified by mulitple lines.
+# Data.Sample= E:\cytof\data1.csv
+# Data.Sample= E:\cytof\data2.csv
+# Data.Sample= E:\cytof\data3.csv
+Data.Sample= D:\Publication\CyGate\data\Multicenter_16indv\Multicenter_2_wlabel.csv
+Data.Sample=
+
