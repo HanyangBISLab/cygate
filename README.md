@@ -13,23 +13,25 @@ Automatic gating of single cell cytometry data
 	Make sure that the CSV files have a column named 'Label' in the header, where cell labels are written.
 	Multiple files can be specified by mulitple lines below.
 	ex)
-		Training.Sample= E:\cytof\reference_gating1.csv
-		Training.Sample= E:\cytof\reference_gating2.csv
+	   Training.Sample= E:\cytof\reference_gating1.csv
+	   Training.Sample= E:\cytof\reference_gating2.csv
 	
 - Training.UngatedCellLabel=
 	Specify label for UNGATED cells
-
+	ex)
+	   Training.UngatedCellLabel= NA
 - Data.Sample=
 	Specify sample files or directory for automatic gating (CSV format)
 	Given a directory, all files in it are gated.
 	Multiple files can be specified by mulitple lines below.
 	ex)
-		Data.Sample= E:\cytof\data1.csv
-		Data.Sample= E:\cytof\data2.csv
-		Data.Sample= E:\cytof\data3.csv
+	   Data.Sample= E:\cytof\data1.csv
+	   Data.Sample= E:\cytof\data2.csv
+	   Data.Sample= E:\cytof\data3     #possible to specify directory
 
 3. Results
-- In the directory of files specified in Data.Sample, file_cygated.csv file is generated.
+- For the files specified in Data.Sample, *_cygated.csv files are generated.
+- The gating results are added to the last column, named 'Gated'.
 
 4. Data
 - To download the data used in this work, visit https://drive.google.com/drive/u/1/folders/1mIR3uTnOZxciVrsooRJLr3tjkLFR3RTI
