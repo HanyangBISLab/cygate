@@ -20,6 +20,7 @@ Automatic gating of single cell cytometry data
 	Specify label for UNGATED cells
 	ex)
 	   Training.UngatedCellLabel= NA
+	   
 - Data.Sample=
 	Specify sample files or directory for automatic gating (CSV format)
 	Given a directory, all files in it are gated.
