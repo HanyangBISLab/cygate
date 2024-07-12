@@ -37,3 +37,11 @@ Automatic gating of single cell cytometry data
 4. Data
 - To download the data used in this work, visit https://drive.google.com/drive/u/1/folders/1mIR3uTnOZxciVrsooRJLr3tjkLFR3RTI
 </pre>
+
+## 5. Rights and Permissions
+<pre>
+- CyGate © 2023 is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+  This license requires that reusers give credit to the creator. It allows reusers to distribute, 
+  remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. 
+  If others modify or adapt the material, they must license the modified material under identical terms.
+</pre>
