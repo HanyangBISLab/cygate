@@ -12,26 +12,26 @@ CyGate is a semiautomated method for classifying single cells into their respect
 ## 2. Parameters (See foo.txt file)
 <pre>
 - Training.Sample=
-	Specify gated reference sample files for gating strategy learning (comma separated value, CSV format)
-	Make sure that the CSV files have a column named 'Label' in the header, where cell labels are written.
-	Multiple files can be specified by mulitple lines below.
-	ex)
-	   Training.Sample= E:\cytof\reference_gating1.csv
-	   Training.Sample= E:\cytof\reference_gating2.csv
-	
+  Specify gated reference sample files for gating strategy learning (comma separated value, CSV format)
+  Make sure that the CSV files have a column named 'Label' in the header, where cell labels are written.
+  Multiple files can be specified by mulitple lines below.
+  ex)
+   Training.Sample= E:\cytof\reference_gating1.csv
+   Training.Sample= E:\cytof\reference_gating2.csv
+
 - Training.UngatedCellLabel=
-	Specify label for UNGATED cells
-	ex)
-	   Training.UngatedCellLabel= NA
+  Specify label for UNGATED cells
+  ex)
+   Training.UngatedCellLabel= NA
 	   
 - Data.Sample=
-	Specify sample files or directory for automatic gating (CSV format)
-	Given a directory, all files in it are gated.
-	Multiple files can be specified by mulitple lines below.
-	ex)
-	   Data.Sample= E:\cytof\data1.csv
-	   Data.Sample= E:\cytof\data2.csv
-	   Data.Sample= E:\cytof\data3     #possible to specify directory
+  Specify sample files or directory for automatic gating (CSV format)
+  Given a directory, all files in it are gated.
+  Multiple files can be specified by mulitple lines below.
+  ex)
+   Data.Sample= E:\cytof\data1.csv
+   Data.Sample= E:\cytof\data2.csv
+   Data.Sample= E:\cytof\data3     #possible to specify directory
 </pre>
 ## 3. Results
 <pre>
@@ -40,12 +40,13 @@ CyGate is a semiautomated method for classifying single cells into their respect
 </pre>
 ## 4. Data
 <pre>
-- To download the data used in this work, visit https://drive.google.com/drive/u/1/folders/1mIR3uTnOZxciVrsooRJLr3tjkLFR3RTI
+- To download the data used in this work, 
+  visit https://drive.google.com/drive/u/1/folders/1mIR3uTnOZxciVrsooRJLr3tjkLFR3RTI
 </pre>
 ## 5. Citation
 <pre>
 - CyGate Provides a Robust Solution for Automatic Gating of Single Cell Cytometry Data.
-  eungjin Na, Yujin Choo, Tae Hyun Yoon, and Eunok Paek. 
+  Seungjin Na, Yujin Choo, Tae Hyun Yoon, and Eunok Paek. 
   Analytical Chemistry <b>2023</b>, 95(46), 16918-16926.
 </pre>	
 ## 6. Rights and Permissions
